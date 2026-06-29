@@ -1,0 +1,16 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# Spring Boot
+backend/target/
+
+# Logs
+*.log
+
+# Environment
+.env
