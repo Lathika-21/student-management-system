@@ -48,7 +48,7 @@ function Students() {
             department
         };
 
-        await fetch("http://localhost:8080/dbstudents", {
+        await fetch("https://student-management-system-production-240f.up.railway.app/dbstudent", {
 
             method: "PUT",
 
@@ -84,7 +84,7 @@ function Students() {
             department
         };
 
-        await fetch("http://localhost:8080/dbstudents", {
+        await fetch("https://student-management-system-production-240f.up.railway.app/dbstudent", {
 
             method: "POST",
 
@@ -126,7 +126,7 @@ function Students() {
 
         if (result.isConfirmed) {
 
-            await fetch(`http://localhost:8080/dbstudents/${id}`, {
+            await fetch(`https://student-management-system-production-240f.up.railway.app/dbstudent/${id}`, {
                 method: "DELETE"
             });
 

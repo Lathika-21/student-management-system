@@ -25,7 +25,7 @@ function Home() {
     }, []);
 
     const loadStudents = async () => {
-        const response = await fetch("http://localhost:8080/dbstudents");
+        const response = await fetch("https://student-management-system-production-240f.up.railway.app/dbstudents");
         const data = await response.json();
         setStudents(data);
     };

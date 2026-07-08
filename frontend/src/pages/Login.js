@@ -7,7 +7,7 @@ function Login() {
     const [password, setPassword] = useState("");
     const login = async () => {
         try {
-            const response = await fetch("http://localhost:8080/auth/login", {
+            const response = await fetch("https://student-management-system-production-240f.up.railway.app/login", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

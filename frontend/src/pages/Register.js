@@ -39,7 +39,7 @@ function Register(){
 
         };
 
-        await fetch("http://localhost:8080/auth/register", {
+        await fetch("https://student-management-system-production-240f.up.railway.app/register", {
 
             method: "POST",
 
