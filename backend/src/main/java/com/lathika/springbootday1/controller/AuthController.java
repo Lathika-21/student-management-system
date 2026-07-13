@@ -15,7 +15,10 @@ public class AuthController {
 
     @Autowired
     private UserService service;
-
+    @GetMapping("/test")
+    public String test() {
+        return "AUTH WORKING";
+    }
     @PostMapping("/register")
     public User register(@RequestBody User user) {
 

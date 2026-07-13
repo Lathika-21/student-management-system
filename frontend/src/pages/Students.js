@@ -25,7 +25,7 @@ function Students() {
 
         setLoading(true);
 
-        const response = await fetch("https://student-management-system-production-240f.up.railway.app/dbstudents");
+        const response = await fetch("https://student-management-system-production-8544.up.railway.app/dbstudents");
         const data = await response.json();
 
         setStudents(data);
@@ -48,7 +48,7 @@ function Students() {
             department
         };
 
-        await fetch("https://student-management-system-production-240f.up.railway.app/dbstudents", {
+        await fetch("https://student-management-system-production-8544.up.railway.app/dbstudents", {
 
             method: "PUT",
 
@@ -84,7 +84,7 @@ function Students() {
             department
         };
 
-        await fetch("https://student-management-system-production-240f.up.railway.app/dbstudents", {
+        await fetch("https://student-management-system-production-8544.up.railway.app/dbstudents", {
 
             method: "POST",
 
@@ -126,7 +126,7 @@ function Students() {
 
         if (result.isConfirmed) {
 
-            await fetch(`https://student-management-system-production-240f.up.railway.app/dbstudents/${id}`, {
+            await fetch(`https://student-management-system-production-8544.up.railway.app/dbstudents/${id}`, {
                 method: "DELETE"
             });
 

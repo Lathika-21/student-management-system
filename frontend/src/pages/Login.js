@@ -7,7 +7,7 @@
         const [password, setPassword] = useState("");
         const login = async () => {
             try {
-                const response = await fetch("https://student-management-system-production-240f.up.railway.app/auth/login", {
+                const response = await fetch("https://student-management-system-production-8544.up.railway.app/auth/login", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
