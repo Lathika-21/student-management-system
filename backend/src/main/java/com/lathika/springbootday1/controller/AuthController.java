@@ -7,10 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = {
-        "http://localhost:3000",
-        "https://student-management-system-git-main-lathika2104-5871s-projects.vercel.app"
-})
+
 public class AuthController {
 
     @Autowired
