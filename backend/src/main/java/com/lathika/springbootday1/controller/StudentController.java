@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import java.util.List;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-
+@CrossOrigin(origins = "https://student-management-system-git-main-lathika2104-5871s-projects.vercel.app")
 @RestController
 public class StudentController {
 

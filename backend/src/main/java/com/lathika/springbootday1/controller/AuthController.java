@@ -4,7 +4,7 @@ import com.lathika.springbootday1.entity.User;
 import com.lathika.springbootday1.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
+@CrossOrigin(origins = "https://student-management-system-git-main-lathika2104-5871s-projects.vercel.app")
 @RestController
 @RequestMapping("/auth")
 
